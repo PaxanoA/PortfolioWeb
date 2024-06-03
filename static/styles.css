@@ -6,6 +6,6 @@
     --text-contrast: #ffffff;
 }
 
-main{
-    background: var(--bg-color);
+.root{
+    background: #2c2c2c;
 }
