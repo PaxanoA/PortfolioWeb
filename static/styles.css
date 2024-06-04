@@ -6,6 +6,26 @@
     --text-contrast: #ffffff;
 }
 
+body{
+    background: var(--bg-color);
+}
+
 .root{
-    background: #2c2c2c;
+    color: var(--text-contrast);
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.social{
+    display: flex;
+    justify-content: center;
+
+}
+
+#logo{ 
+    /*Social logos*/
+    width: 60px;
+    border-radius: 15px;
 }
