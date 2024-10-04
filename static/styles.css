@@ -8,24 +8,42 @@
 
 body{
     background: var(--bg-color);
+    color: var(--color1);
 }
 
-.root{
-    color: var(--text-contrast);
+
+/*Header*/
+.nav-bar{
+    max-height: 70px;
+    display: flex;
+    overflow: auto;
+    position: sticky;
+    offset: 0;
+
+}
+
+.nav-wrapper{
+    margin-top: 5px;
     display: flex;
     justify-content: center;
 }
 
-
-
-.social{
+.list{
     display: flex;
-    justify-content: center;
-
+    gap: 25px;
+    border-bottom: var(--color1) dotted 2px;
+    padding-bottom: 5px;
+    justify-content: space-around;
+    width: 80vw;
+    max-width: 80%;
 }
 
-#logo{ 
-    /*Social logos*/
-    width: 60px;
-    border-radius: 15px;
+ul li{
+    display: inline;
 }
+
+li{
+    color: var(--color3);
+    border: var(--color3) soli;
+}
+
