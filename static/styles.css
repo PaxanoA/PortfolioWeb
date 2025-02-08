@@ -11,13 +11,12 @@ body{
     color: var(--color1);
 }
 
-
 /*Header*/
 .nav-bar{
     max-height: 70px;
     display: flex;
-    overflow: auto;
-    position: sticky;
+    position: fixed;
+    z-index: 999;
     offset: 0;
 
 }
@@ -47,3 +46,9 @@ li{
     border: var(--color3) soli;
 }
 
+/*Content*/
+
+.content{
+    height: 1220px;
+    margin-top: 71px;
+}
