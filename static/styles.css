@@ -2,53 +2,49 @@
     --bg-color: #2c2c2c;
     --color1: #d3d3d3;
     --color2: #ffd700;
-    --color3: #32cd32;
+    --color3: #32cd3294;
     --text-contrast: #ffffff;
+    --hover-bg-color: #444444;
 }
 
 body{
     background: var(--bg-color);
     color: var(--color1);
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-/*Header*/
-.nav-bar{
-    max-height: 70px;
+.navbar{
+    margin-top: auto;
     display: flex;
+    background: var(--color3);
+    width: 100px;
+    height: 205px;
+    border-radius: 15px;
+    border: solid 1px black;
+    align-items: center;  
+    justify-content: center;  
     position: fixed;
-    z-index: 999;
-    offset: 0;
-
+    top: 35%;
+    z-index: 1;
 }
 
-.nav-wrapper{
-    margin-top: 5px;
-    display: flex;
-    justify-content: center;
+li{ /*side navbar*/
+    padding: 15px;
 }
 
-.list{
-    display: flex;
-    gap: 25px;
-    border-bottom: var(--color1) dotted 2px;
-    padding-bottom: 5px;
-    justify-content: space-around;
-    width: 80vw;
-    max-width: 80%;
+.nav-list li:hover{
+    background: var(--hover-bg-color);
+    border-radius: 15px;
 }
 
-ul li{
-    display: inline;
+ul{
+    list-style: none;
+    padding: 0;
 }
 
-li{
-    color: var(--color3);
-    border: var(--color3) soli;
-}
-
-/*Content*/
-
-.content{
-    height: 1220px;
-    margin-top: 71px;
+li a{
+    list-style: none;
+    text-decoration: none;
+    color: var(--color1);
 }
