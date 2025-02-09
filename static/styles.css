@@ -134,6 +134,7 @@ h5{
     .content{
         margin-top: 0;
         flex-direction: row;
+        margin: auto;
     }
     .about{
         margin-left: 0;
