@@ -62,3 +62,80 @@ li a{
     text-decoration: none;
     color: var(--color1);
 }
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+
+h5{
+    font-size: 20px;
+    color: var(--text-contrast);
+    margin: 0;
+}
+.about  h1{
+    font-size: 4.5rem;
+    color: var(--color2);
+    margin-bottom: 0;
+}
+.about p{
+    font-size: 1.2rem;
+    text-align: center;
+    max-width: 800px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 415px){
+    html{
+        max-width: 315px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .header-wrapper{
+        width: 80vw;
+    }
+    .logo{
+        display: none;
+    }
+    .navbar{
+        background: var(--color3);
+        margin-top: 0;
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+        align-items: center;
+        z-index: 0;
+        position: relative;
+        align-items: center;
+        border: solid 1px transparent;
+    }
+    .navbar ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .navbar li {
+        padding: 10px;
+    }
+    .content{
+        margin-top: 0;
+        flex-direction: row;
+    }
+    .about{
+        margin-left: 0;
+    }
+}
