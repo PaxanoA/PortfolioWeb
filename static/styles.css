@@ -5,6 +5,7 @@
     --color3: #32cd3294;
     --text-contrast: #ffffff;
     --hover-bg-color: #444444;
+    --font-family: 'Iria Sans', sans-serif;
 }
 
 body{
@@ -12,8 +13,21 @@ body{
     color: var(--color1);
     padding-left: 15px;
     padding-right: 15px;
+    font-family: var(--font-family);
 }
 
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: wrap;
+    color: var(--text-contrast);
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
 .navbar{
     margin-top: auto;
     display: flex;
