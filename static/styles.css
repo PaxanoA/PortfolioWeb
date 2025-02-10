@@ -14,6 +14,8 @@ body{
     padding-left: 15px;
     padding-right: 15px;
     font-family: var(--font-family);
+    margin: 0;
+    height: 100vh;
 }
 
 .logo{
@@ -72,7 +74,7 @@ li a{
     margin-top: -50px;
 }
 
-.about{
+.about, .projects, .contact{
     display: flex;
     flex-direction: column;
     align-items: center;
